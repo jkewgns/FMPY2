@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class DeadframePlayerController2D : MonoBehaviour
@@ -80,6 +81,7 @@ public class DeadframePlayerController2D : MonoBehaviour
         EvaluateWallTouch();
         HandleJumpBuffer();
         HandleDash();
+        Reset();
     }
 
     private void FixedUpdate()
@@ -256,6 +258,14 @@ public class DeadframePlayerController2D : MonoBehaviour
     public void RefreshDashFromPerfectLanding()
     {
         _dashAvailable = true;
+    }
+
+    private void Reset()
+    {
+        if(Input.GetKey(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
     private void OnDrawGizmosSelected()

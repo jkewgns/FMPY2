@@ -5,20 +5,19 @@ using System;
 public class Timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI timerText;
+    public string FinalTime { get; private set; } // Added this
     float elapsedTime;
+    bool isStopped = false; // Added this
 
     void Update()
     {
+        if (isStopped) return;
+
         elapsedTime += Time.deltaTime;
-
         TimeSpan time = TimeSpan.FromSeconds(elapsedTime);
-
-        // Formatting: 
-        // hh = hours, mm = minutes, ss = seconds
-        // fff = 3 decimal places (milliseconds)
-        // ff = 2 decimal places
-        timerText.text = time.ToString(@"mm\:ss\.ff");
-
-        //for hours: timerText.text = time.ToString(@"hh\:mm\:ss\.ff");
+        FinalTime = time.ToString(@"mm\:ss\.ff");
+        timerText.text = FinalTime;
     }
+
+    public void StopTimer() => isStopped = true;
 }
