@@ -4,20 +4,35 @@ using System;
 
 public class Timer : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI timerText;
-    public string FinalTime { get; private set; } // Added this
-    float elapsedTime;
-    bool isStopped = false; // Added this
+    [SerializeField] private TextMeshProUGUI timerText;
+
+    public string FinalTime { get; private set; } = "00:00.00";
+    public float ElapsedSeconds => elapsedTime;
+
+    private float elapsedTime;
+    private bool isStopped;
 
     void Update()
     {
         if (isStopped) return;
 
         elapsedTime += Time.deltaTime;
-        TimeSpan time = TimeSpan.FromSeconds(elapsedTime);
-        FinalTime = time.ToString(@"mm\:ss\.ff");
-        timerText.text = FinalTime;
+        FinalTime = FormatTime(elapsedTime);
+
+        if (timerText != null)
+            timerText.text = FinalTime;
     }
 
-    public void StopTimer() => isStopped = true;
+    public void StopTimer()
+    {
+        if (isStopped) return;
+        isStopped = true;
+        FinalTime = FormatTime(elapsedTime);
+    }
+
+    public static string FormatTime(float seconds)
+    {
+        TimeSpan time = TimeSpan.FromSeconds(seconds);
+        return time.ToString(@"mm\:ss\.ff");
+    }
 }

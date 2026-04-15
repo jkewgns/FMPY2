@@ -14,22 +14,22 @@ public class Ending : MonoBehaviour
     [Header("Transition Settings")]
     public Image whiteFadeImage;
     public TextMeshProUGUI timerText;
-    public float transitionTime = 1.5f; 
-    public float scaleMultiplier = 3.0f; 
-    public float waitBeforeLoad = 2.5f; 
+    public float transitionTime = 1.5f;
+    public float scaleMultiplier = 3.0f;
+    public float waitBeforeLoad = 2.5f;
 
     private SpriteRenderer spriteRenderer;
     private bool isTriggered = false;
 
-    void Start() 
+    void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        if (whiteFadeImage != null) 
+
+        if (whiteFadeImage != null)
         {
             whiteFadeImage.gameObject.SetActive(false);
-            // Ensure alpha starts at 0
             Color c = whiteFadeImage.color;
-            c.a = 0;
+            c.a = 0f;
             whiteFadeImage.color = c;
         }
     }
@@ -52,33 +52,43 @@ public class Ending : MonoBehaviour
     IEnumerator EndSequence()
     {
         Timer timerScript = FindFirstObjectByType<Timer>();
-        if (timerScript != null) timerScript.StopTimer();
+        if (timerScript != null)
+        {
+            timerScript.StopTimer();
 
-        if (whiteFadeImage != null) whiteFadeImage.gameObject.SetActive(true);
+            string levelId = SceneManager.GetActiveScene().name;
+            LevelTimePersistence.SaveLevelTime(levelId, timerScript.ElapsedSeconds);
+        }
 
-        RectTransform rect = timerText.GetComponent<RectTransform>();
-        
-        Vector2 startPos = rect.anchoredPosition;
-        Vector3 startScale = rect.localScale;
+        if (whiteFadeImage != null)
+            whiteFadeImage.gameObject.SetActive(true);
 
-        Vector2 targetPos = new Vector2(-200f, 145f); 
+        RectTransform rect = timerText != null ? timerText.GetComponent<RectTransform>() : null;
+
+        Vector2 startPos = rect != null ? rect.anchoredPosition : Vector2.zero;
+        Vector3 startScale = rect != null ? rect.localScale : Vector3.one;
+
+        Vector2 targetPos = new Vector2(-200f, 145f);
         Vector3 targetScale = startScale * scaleMultiplier;
 
-        float elapsed = 0;
+        float elapsed = 0f;
 
         while (elapsed < transitionTime)
         {
             elapsed += Time.deltaTime;
-            float t = elapsed / transitionTime;
-            float curve = Mathf.SmoothStep(0, 1, t);
+            float t = Mathf.Clamp01(elapsed / transitionTime);
+            float curve = Mathf.SmoothStep(0f, 1f, t);
 
-            rect.anchoredPosition = Vector2.Lerp(startPos, targetPos, curve);
-            rect.localScale = Vector3.Lerp(startScale, targetScale, curve);
+            if (rect != null)
+            {
+                rect.anchoredPosition = Vector2.Lerp(startPos, targetPos, curve);
+                rect.localScale = Vector3.Lerp(startScale, targetScale, curve);
+            }
 
             if (whiteFadeImage != null)
             {
                 Color c = whiteFadeImage.color;
-                c.a = curve; 
+                c.a = curve;
                 whiteFadeImage.color = c;
             }
 
@@ -86,7 +96,6 @@ public class Ending : MonoBehaviour
         }
 
         yield return new WaitForSeconds(waitBeforeLoad);
-
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
