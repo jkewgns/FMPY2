@@ -262,7 +262,7 @@ public class DeadframePlayerController2D : MonoBehaviour
 
     private void Reset()
     {
-        if(Input.GetKey(KeyCode.R))
+        if(Input.GetKey(KeyCode.Tab) || Input.GetKey(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }

@@ -1,0 +1,1317 @@
+fileFormatVersion: 2
+guid: 9c950e99dda42f64583c836722f4548e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3039460748725045302
+    second: DEADFRAME Menu Sprites-1.png_0
+  - first:
+      213: -7902142842412824697
+    second: DEADFRAME Menu Sprites-1.png_1
+  - first:
+      213: -5927659130046655692
+    second: DEADFRAME Menu Sprites-1.png_2
+  - first:
+      213: -4673876107032601602
+    second: DEADFRAME Menu Sprites-1.png_3
+  - first:
+      213: 2974993847730868772
+    second: DEADFRAME Menu Sprites-1.png_4
+  - first:
+      213: 104299898457343358
+    second: DEADFRAME Menu Sprites-1.png_5
+  - first:
+      213: 3000281415369729654
+    second: DEADFRAME Menu Sprites-1.png_6
+  - first:
+      213: 6989684254146649414
+    second: DEADFRAME Menu Sprites-1.png_7
+  - first:
+      213: 772955983438006540
+    second: DEADFRAME Menu Sprites-1.png_8
+  - first:
+      213: 469253103493188265
+    second: DEADFRAME Menu Sprites-1.png_9
+  - first:
+      213: 5814236483589522101
+    second: DEADFRAME Menu Sprites-1.png_10
+  - first:
+      213: 6714562306531837657
+    second: DEADFRAME Menu Sprites-1.png_11
+  - first:
+      213: -7254158804420883714
+    second: DEADFRAME Menu Sprites-1.png_12
+  - first:
+      213: -3736523517903407015
+    second: DEADFRAME Menu Sprites-1.png_13
+  - first:
+      213: -8824853215795423122
+    second: DEADFRAME Menu Sprites-1.png_14
+  - first:
+      213: -5388812194132392868
+    second: DEADFRAME Menu Sprites-1.png_15
+  - first:
+      213: -1736652652411717016
+    second: DEADFRAME Menu Sprites-1.png_16
+  - first:
+      213: 2619264580942340184
+    second: DEADFRAME Menu Sprites-1.png_17
+  - first:
+      213: -6170476831415688988
+    second: DEADFRAME Menu Sprites-1.png_18
+  - first:
+      213: 8574564357006502483
+    second: DEADFRAME Menu Sprites-1.png_19
+  - first:
+      213: 1901015472254366393
+    second: DEADFRAME Menu Sprites-1.png_20
+  - first:
+      213: 6842090399839024920
+    second: DEADFRAME Menu Sprites-1.png_21
+  - first:
+      213: -3301838982311439860
+    second: DEADFRAME Menu Sprites-1.png_22
+  - first:
+      213: -8847974214544091426
+    second: DEADFRAME Menu Sprites-1.png_23
+  - first:
+      213: 3701284751709470328
+    second: DEADFRAME Menu Sprites-1.png_24
+  - first:
+      213: -977924339902875941
+    second: DEADFRAME Menu Sprites-1.png_25
+  - first:
+      213: -6597142830315761954
+    second: DEADFRAME Menu Sprites-1.png_26
+  - first:
+      213: -5149588469149880038
+    second: DEADFRAME Menu Sprites-1.png_27
+  - first:
+      213: -6584061216239637384
+    second: DEADFRAME Menu Sprites-1.png_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 105
+        width: 77
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433d7f36d69bcbda0800000000000000
+      internalID: -5927659130046655692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 104
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa067f163f138600800000000000000
+      internalID: 469253103493188265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 92
+        width: 79
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b24874d64150b050800000000000000
+      internalID: 5814236483589522101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 79
+        width: 79
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6ce0fa7daee2d50800000000000000
+      internalID: 6714562306531837657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 66
+        width: 79
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa8836600d045b90800000000000000
+      internalID: -7254158804420883714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 55
+        width: 79
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958797c48a3352cc0800000000000000
+      internalID: -3736523517903407015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 43
+        width: 79
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68dc8d91c2d78580800000000000000
+      internalID: -8824853215795423122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 32
+        width: 79
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54027f4cd71735b0800000000000000
+      internalID: -5388812194132392868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 21
+        width: 79
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a72c22d9b26e7e0800000000000000
+      internalID: -1736652652411717016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 11
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850a4d7424f795420800000000000000
+      internalID: 2619264580942340184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 12
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0a0b0b3001e5aa0800000000000000
+      internalID: -6170476831415688988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a291b4ad8fef670800000000000000
+      internalID: 8574564357006502483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b23e300083c16a10800000000000000
+      internalID: 1901015472254366393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817f38bb7fcf3fe50800000000000000
+      internalID: 6842090399839024920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c021ac180f28d22d0800000000000000
+      internalID: -3301838982311439860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_23
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed69848945ea53580800000000000000
+      internalID: -8847974214544091426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e76361fda9d5330800000000000000
+      internalID: 3701284751709470328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd671ee7ef6bd62f0800000000000000
+      internalID: -977924339902875941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede838a8c8d3274a0800000000000000
+      internalID: -6597142830315761954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1
+        width: 1
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11bfdc229cf888b0800000000000000
+      internalID: -5149588469149880038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_28
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c2c9a2537b0a4a0800000000000000
+      internalID: -6584061216239637384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fb03cf701f0f5418f851145eac42a5
+      internalID: 3039460748725045302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa4c5624d16fb84c97261aaa575e867
+      internalID: -7902142842412824697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95850925e4ab9d24aa040bd4937f3299
+      internalID: -4673876107032601602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18814f5ecd96cb949a20dbc238b81baa
+      internalID: 2974993847730868772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_5
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d149f888c2320478c1ce802f9e4fc3
+      internalID: 104299898457343358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae798de246c5a114caa827e3496feec5
+      internalID: 3000281415369729654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7d61504b33a0b499f2abfcfc229fb8
+      internalID: 6989684254146649414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6297a02ec319dd3468991c3039fc02aa
+      internalID: 772955983438006540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb07c6864bf2ad4fbf43b96cfbde8d2
+      internalID: -1538546179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_30
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98196ef49ca9d6a4c91d58158c196768
+      internalID: -1918226920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_31
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 12
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b188775cddb863499b3b7c47ee221eb
+      internalID: -2122269075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_32
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 12
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef3103aa00838945af40bd8634e889a
+      internalID: 1525809666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_33
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 12
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40d3b9343ab1ea489405bce8b640247
+      internalID: -1873103134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_34
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 12
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ca4ef132e11a045b6120d69a09b3a4
+      internalID: 317466599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_35
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 12
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ef115b95ea46341b6f117bda4b90c4
+      internalID: 879827760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_36
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 12
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f07001ea49d3b0489ad0d437fbd3f96
+      internalID: 1852684373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 12
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcadc600d0461848887fa034eb34646
+      internalID: 705276423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_38
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae5177d52e04b44388af5c9a4177f99
+      internalID: 1101721522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_39
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1364a315b76414db03c3d2fe553e59
+      internalID: -1607211457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_40
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea5e76a639e1464ab8c9f853ea5939a
+      internalID: -958400874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_41
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 12
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6395b590183ae2740a05d09eacacf27c
+      internalID: 634554301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_42
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a002ae568e29db643a6deea511c8b02a
+      internalID: -184084900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_43
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd14ffde0a81734f8e0f48ff702558b
+      internalID: -1493127200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEADFRAME Menu Sprites-1.png_44
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b84f868f2f26144ad47adb836abc52
+      internalID: 1790336857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ff599f5129249df47972ed3509dd96ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DEADFRAME Menu Sprites-1.png_0: 3039460748725045302
+      DEADFRAME Menu Sprites-1.png_1: -7902142842412824697
+      DEADFRAME Menu Sprites-1.png_10: 5814236483589522101
+      DEADFRAME Menu Sprites-1.png_11: 6714562306531837657
+      DEADFRAME Menu Sprites-1.png_12: -7254158804420883714
+      DEADFRAME Menu Sprites-1.png_13: -3736523517903407015
+      DEADFRAME Menu Sprites-1.png_14: -8824853215795423122
+      DEADFRAME Menu Sprites-1.png_15: -5388812194132392868
+      DEADFRAME Menu Sprites-1.png_16: -1736652652411717016
+      DEADFRAME Menu Sprites-1.png_17: 2619264580942340184
+      DEADFRAME Menu Sprites-1.png_18: -6170476831415688988
+      DEADFRAME Menu Sprites-1.png_19: 8574564357006502483
+      DEADFRAME Menu Sprites-1.png_2: -5927659130046655692
+      DEADFRAME Menu Sprites-1.png_20: 1901015472254366393
+      DEADFRAME Menu Sprites-1.png_21: 6842090399839024920
+      DEADFRAME Menu Sprites-1.png_22: -3301838982311439860
+      DEADFRAME Menu Sprites-1.png_23: -8847974214544091426
+      DEADFRAME Menu Sprites-1.png_24: 3701284751709470328
+      DEADFRAME Menu Sprites-1.png_25: -977924339902875941
+      DEADFRAME Menu Sprites-1.png_26: -6597142830315761954
+      DEADFRAME Menu Sprites-1.png_27: -5149588469149880038
+      DEADFRAME Menu Sprites-1.png_28: -6584061216239637384
+      DEADFRAME Menu Sprites-1.png_29: -1538546179
+      DEADFRAME Menu Sprites-1.png_3: -4673876107032601602
+      DEADFRAME Menu Sprites-1.png_30: -1918226920
+      DEADFRAME Menu Sprites-1.png_31: -2122269075
+      DEADFRAME Menu Sprites-1.png_32: 1525809666
+      DEADFRAME Menu Sprites-1.png_33: -1873103134
+      DEADFRAME Menu Sprites-1.png_34: 317466599
+      DEADFRAME Menu Sprites-1.png_35: 879827760
+      DEADFRAME Menu Sprites-1.png_36: 1852684373
+      DEADFRAME Menu Sprites-1.png_37: 705276423
+      DEADFRAME Menu Sprites-1.png_38: 1101721522
+      DEADFRAME Menu Sprites-1.png_39: -1607211457
+      DEADFRAME Menu Sprites-1.png_4: 2974993847730868772
+      DEADFRAME Menu Sprites-1.png_40: -958400874
+      DEADFRAME Menu Sprites-1.png_41: 634554301
+      DEADFRAME Menu Sprites-1.png_42: -184084900
+      DEADFRAME Menu Sprites-1.png_43: -1493127200
+      DEADFRAME Menu Sprites-1.png_44: 1790336857
+      DEADFRAME Menu Sprites-1.png_5: 104299898457343358
+      DEADFRAME Menu Sprites-1.png_6: 3000281415369729654
+      DEADFRAME Menu Sprites-1.png_7: 6989684254146649414
+      DEADFRAME Menu Sprites-1.png_8: 772955983438006540
+      DEADFRAME Menu Sprites-1.png_9: 469253103493188265
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
