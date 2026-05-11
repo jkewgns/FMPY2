@@ -605,6 +605,7 @@ GameObject:
   - component: {fileID: 144733382}
   - component: {fileID: 144733384}
   - component: {fileID: 144733383}
+  - component: {fileID: 144733385}
   m_Layer: 3
   m_Name: Wall (8)
   m_TagString: Untagged
@@ -728,6 +729,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &144733385
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144733381}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &221655410
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,6 +1016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PerfectPad
       objectReference: {fileID: 0}
+    - target: {fileID: 6440310194844683307, guid: 406dc0bbadf8fe6458a4ba45d177a49e, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 2001951518}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1618,6 +1650,7 @@ GameObject:
   - component: {fileID: 786152234}
   - component: {fileID: 786152236}
   - component: {fileID: 786152235}
+  - component: {fileID: 786152237}
   m_Layer: 3
   m_Name: Wall (2)
   m_TagString: Untagged
@@ -1741,6 +1774,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &786152237
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786152233}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &794285019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1989,6 +2049,38 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0efd138cbc9c5164ca10ec2091b62b50, type: 3}
+--- !u!1 &803824471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7160626207629103327, guid: b1758b291d8ab894483628cbce702e29, type: 3}
+  m_PrefabInstance: {fileID: 2074228251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &803824475
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803824471}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!4 &838573664 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2157366315635916110, guid: 406dc0bbadf8fe6458a4ba45d177a49e, type: 3}
@@ -2005,6 +2097,7 @@ GameObject:
   - component: {fileID: 858474482}
   - component: {fileID: 858474484}
   - component: {fileID: 858474483}
+  - component: {fileID: 858474485}
   m_Layer: 3
   m_Name: Wall (6)
   m_TagString: Untagged
@@ -2128,6 +2221,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &858474485
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858474481}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
+--- !u!1 &870204444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7104492809489970783, guid: b1758b291d8ab894483628cbce702e29, type: 3}
+  m_PrefabInstance: {fileID: 2074228251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &870204448
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870204444}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &916040912
 GameObject:
   m_ObjectHideFlags: 0
@@ -3669,6 +3821,7 @@ GameObject:
   - component: {fileID: 1717156807}
   - component: {fileID: 1717156809}
   - component: {fileID: 1717156808}
+  - component: {fileID: 1717156810}
   m_Layer: 3
   m_Name: Wall (4)
   m_TagString: Untagged
@@ -3792,6 +3945,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1717156810
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717156806}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &1740418518
 GameObject:
   m_ObjectHideFlags: 0
@@ -3956,6 +4136,7 @@ GameObject:
   - component: {fileID: 1740497132}
   - component: {fileID: 1740497131}
   - component: {fileID: 1740497130}
+  - component: {fileID: 1740497134}
   m_Layer: 3
   m_Name: Wall (7)
   m_TagString: Untagged
@@ -4113,6 +4294,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1740497134
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740497128}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &1797469511
 GameObject:
   m_ObjectHideFlags: 0
@@ -4275,6 +4483,7 @@ GameObject:
   - component: {fileID: 1807725175}
   - component: {fileID: 1807725177}
   - component: {fileID: 1807725176}
+  - component: {fileID: 1807725178}
   m_Layer: 3
   m_Name: Wall (3)
   m_TagString: Untagged
@@ -4398,6 +4607,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1807725178
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807725174}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &1895411486
 GameObject:
   m_ObjectHideFlags: 0
@@ -4560,6 +4796,7 @@ GameObject:
   - component: {fileID: 1945156980}
   - component: {fileID: 1945156982}
   - component: {fileID: 1945156981}
+  - component: {fileID: 1945156983}
   m_Layer: 3
   m_Name: Wall (5)
   m_TagString: Untagged
@@ -4683,6 +4920,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1945156983
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945156979}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &2001951515
 GameObject:
   m_ObjectHideFlags: 0
@@ -5187,7 +5451,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 163247096104318785, guid: b1758b291d8ab894483628cbce702e29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1797469512}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7160626207629103327, guid: b1758b291d8ab894483628cbce702e29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 803824475}
+    - targetCorrespondingSourceObject: {fileID: 7104492809489970783, guid: b1758b291d8ab894483628cbce702e29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 870204448}
   m_SourcePrefab: {fileID: 100100000, guid: b1758b291d8ab894483628cbce702e29, type: 3}
 --- !u!1 &2075338464
 GameObject:
