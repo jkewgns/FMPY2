@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
@@ -117,5 +118,10 @@ public class Menu : MonoBehaviour
         // Return to the original position once the shake is done
         target.anchoredPosition = originalPos;
         shakeRoutine = null;
+    }
+
+    public void LevelOne()
+    {
+        SceneManager.LoadScene("Lvl. 1");
     }
 }
